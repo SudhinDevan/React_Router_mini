@@ -1,8 +1,12 @@
-
 export default function Contact() {
   return (
-      <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
+      <div className="relative flex items-top justify-center min-h-[500px] bg-white sm:items-center sm:pt-0">
           <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
+                <img
+                    className="mx-auto h-20 w-auto"
+                    src="https://res.cloudinary.com/dtbohkfpy/image/upload/v1692682485/papertrail_logo_new_ob8w1f.png"
+                    alt="papertrail"
+                />
               <div className="mt-8 overflow-hidden">
                   <div className="grid grid-cols-1 md:grid-cols-2">
                       <div className="p-6 mr-2 bg-gray-100 sm:rounded-lg">
@@ -128,7 +132,7 @@ export default function Contact() {
 
                           <button
                               type="submit"
-                              className="md:w-32 bg-orange-700 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-orange-600 transition ease-in-out duration-300"
+                              className="md:w-32 bg-green-600 hover:bg-green-800 text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-orange-600 transition ease-in-out duration-300"
                           >
                               Submit
                           </button>

@@ -8,7 +8,7 @@ export default function Footer() {
                   <div className="mb-6 md:mb-0">
                       <Link to="/" className="flex items-center">
                           <img
-                              src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                              src="https://res.cloudinary.com/dtbohkfpy/image/upload/v1692682485/papertrail_logo_new_ob8w1f.png"
                               className="mr-3 h-16"
                               alt="Logo"
                           />
@@ -35,7 +35,7 @@ export default function Footer() {
                           <ul className="text-gray-500 font-medium">
                               <li className="mb-4">
                                   <a
-                                      href="https://github.com/hiteshchoudhary"
+                                      href="https://github.com/sudhindevan"
                                       className="hover:underline"
                                       target="_blank"
                                       rel="noreferrer"
@@ -71,8 +71,8 @@ export default function Footer() {
               <div className="sm:flex sm:items-center sm:justify-between">
                   <span className="text-sm text-gray-500 sm:text-center">
                       © 2023
-                      <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                          hiteshchoudhary
+                      <a href="https://github.com/SudhinDevan" className="hover:underline">
+                          sudhindevan
                       </a>
                       . All Rights Reserved.
                   </span>
